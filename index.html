@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Franco Catania </title>
+  <link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body id="body" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+
+<nav class="navbar navbar-default navbar-fixed-top greyed">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#body"><Strong>Franco <br>Catania</Strong></a>
+    </div>
+    <div class="collapse navbar-collapse uppercase" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#about">Acerca de mi</a></li>
+        <li><a href="#knowhow">Conocimientos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid bg-grey text-center">
+  <h1 class="margin">Franco Catania</h1>
+  <img src="img/frente.jpg" class="img-responsive img-circle margin" style="display:inline" alt="Frente de imagen" width="350" height="350">
+  <h2>Software Developer</h2>
+  <h2>Estudiante Universitario</h2>
+</div>
+
+<section id="about" class="container text-section">
+  <div class="row">
+    <div class="col-sm-6">
+      <h4 class="big">Acerca de mí</h4>
+      <p>
+        Soy Franco Catania, estudiante de la Licenciatura en Sistemas de Informacion en la Universidad Nacional de Lujan, en donde me 
+        encuentro cursando el cuarto año de la carrera. Ademas trabajo full time como Java Software Developer. 
+        <br>
+        Estoy en la búsqueda constante de nuevos desafíos, aprender nuevas cosas, reforzar el conocimiento que ya tengo y aprender un poco de cada persona que se cruce en mi camino profesional, siempre de una forma humilde y respetuosa.
+        <br>
+        Me gusta viajar, leer en mi tiempo libre, escuchar música, y mi deporte favorito es el paddle.
+      </p>
+    </div>
+    <div class="col-sm-social text-center">
+            <span class="glyphicon glyphicon-pencil logo"></span>
+    </div>
+  </div>
+</section>
+
+<section id="knowhow" class="container text-section">
+
+  <h5 class="big red text-center">Conocimientos</h5>
+    <ul class="ul-no-style">
+      <li>
+        <span class="glyphicon glyphicon-ok"></span>
+        <strong>Java</strong> (6/8, Rest, Soap, Springframework, Maven, JUnit, EclipseLink/Hibernate)
+      </li>
+      <li>
+        <span class="glyphicon glyphicon-ok"></span>
+        <strong>Control de Versiones</strong> (SVN/Git).
+      </li>
+      <li>
+        <span class="glyphicon glyphicon-ok"></span>
+        <strong>Webservers</strong> 
+      </li>
+      <li>
+        <span class="glyphicon glyphicon-ok"></span>
+        <strong>Otras herramientas</strong> (Jira, Teamcity, Sonar, Draw.io, IntellijIDEA, Paquete Office).
+      </li>
+    </ul>
+   
+</section>
+
+<div id="contacto" class="container-fluid sbg-grey">
+    <h2 class="text-center">Contacto</h2>
+    <div class="row">
+        <div class="col text-center">
+          
+            <p><span class="glyphicon glyphicon-map-marker"></span> Moreno, Bs As</p>
+            <p><span class="glyphicon glyphicon-phone"></span> +54 1132483321</p>
+            <p><span class="glyphicon glyphicon-envelope"></span><a href = "mailto:cataniafrane@gmail.com"> cataniafrane&#64;gmail.com</a></p>
+        </div>
+    </div>
+</div>
+<footer class="container-fluid text-center">
+  <a href="#body" title="To Top">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a>
+  <p>
+    Desarrollado por  <strong><a href="https://www.linkedin.com/in/franco-catania-258976b6/" target="_blank">Franco Catania</a>.</strong>
+    <br>
+    2019
+  </p>
+  <p style="display: none;">Bootstrap Theme Made By <a href="https://www.w3schools.com" title="Visit w3schools">www.w3schools.com</a></p>
+
+</footer>
+
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#body']").on('click', function(event) {
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+   
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+  
+
+})
+</script>
+
+</body>
+</html>
