@@ -109,11 +109,8 @@ body {
   margin-top: 15px;
 }
 #bgimg-up{
-  background-image: url('../img/bg-up.jpg');
-  background-repeat: no-repeat;
-  background-position: center; 
-  position: relative;
-  display: inline;
+  background-image: url("../img/bg-up.jpg");
+  background-attachment: fixed;
 }
 @media screen and (max-width: 480px) {
     .larger {
