@@ -127,3 +127,13 @@ body {
       display: inline;
     }
 }
+@media screen and (min-width: 1000px) {
+    
+     #bgimg-up{
+      background-image: url('../img/bg-up.jpg');
+      background-repeat: no-repeat;
+      background-position: center; 
+      position: relative;
+      display: inline;
+    }
+}
