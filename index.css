@@ -20,6 +20,9 @@ body {
     text-transform: uppercase;
   }
   
+.lpad{
+	left-padding: 10px;
+}
   .navbar {
     margin-bottom: 0;
     z-index: 9999;
