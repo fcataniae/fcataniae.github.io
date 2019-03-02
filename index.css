@@ -19,7 +19,7 @@ body {
   h1{
     text-transform: uppercase;
   }
-  
+
 .lpad{
 	padding-left: 10px;
 }
@@ -58,8 +58,8 @@ body {
 #extra{
 	background-color: #191C2A;
 }
-.white-text{
-	color: white;
+.text-white{
+	color: #F5FCF5;
 }
 .column-header{
 	color: red;
@@ -120,6 +120,6 @@ body {
       background-repeat: no-repeat;
       background-position: center; 
       position: relative;
-      display: none;
+      display: inline;
     }
 }
