@@ -102,4 +102,8 @@ body {
   margin-top: 15px;
 }
 
-
+@media screen and (max-width: 480px) {
+    .larger {
+        font-size: 150px;
+    }
+}
