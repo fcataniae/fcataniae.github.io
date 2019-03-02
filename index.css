@@ -91,7 +91,10 @@ body {
   height: 100px;
   display: inline-block;
 }
-
+.larger {
+    color: #1CBD24;
+    font-size: 200px;
+}
 
 #online-button{
   padding: 12px 24px;
