@@ -87,6 +87,10 @@ body {
 .navbar-brand{
 	margin-top: 15px;
 }
+.title-logo{
+  height: 100px;
+  display: inline-block;
+}
 
 
 #online-button{
