@@ -103,13 +103,12 @@ body {
     font-size: 200px;
 }
 
-#online-button{
-  padding: 12px 24px;
-  font-size: 125%;
-  margin-top: 15px;
-}
 #bgimg-up{
   background-image: url("../img/bg-up.jpg");
+  background-attachment: fixed;
+}
+#contacto{
+  background-image: url("../img/bg-dw.jpg");
   background-attachment: fixed;
 }
 @media screen and (max-width: 480px) {
