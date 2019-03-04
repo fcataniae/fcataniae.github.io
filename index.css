@@ -108,7 +108,7 @@ body {
   background-attachment: fixed;
 }
 #bgimg-mid{
-  background-image: url("../img/bg-md.jpg");
+  background-image: url("../img/bg-mid.jpg");
   background-attachment: fixed;
 }
 @media screen and (max-width: 480px) {
