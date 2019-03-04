@@ -103,11 +103,12 @@ body {
     font-size: 200px;
 }
 .bg-img{
-  background-repeat: no-repeat;
+    background-repeat: no-repeat;
     background-position: 50% 100%;
     background-size: cover;
     background-clip: padding-box;
     background-attachment: fixed;
+    min-height: 600px;
 }
 
 
