@@ -114,7 +114,7 @@ body {
   background-image: url("../img/bg-up.jpg");
   background-attachment: fixed;
 }
-#bgimg-mid{
+.bgimg-mid{
   background-image: url("../img/bg-mid.jpg");
   background-attachment: fixed;
 }
