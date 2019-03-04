@@ -107,6 +107,7 @@ body {
     background-position: 50% 100%;
     background-size: cover;
     background-clip: padding-box;
+    background-attachment: fixed;
 }
 
 
@@ -114,9 +115,12 @@ body {
   background-image: url("../img/bg-up.jpg");
   background-attachment: fixed;
 }
+#bgimg-dw{
+  background-image: url("../img/bg-dw.jpg");
+  background-attachment: fixed;
+}
 .bgimg-mid{
   background-image: url("../img/bg-mid.jpg");
-  background-attachment: fixed;
 }
 @media screen and (max-width: 480px) {
     .larger {
