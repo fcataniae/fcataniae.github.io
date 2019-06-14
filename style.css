@@ -1,0 +1,142 @@
+
+body {
+    font: 400 15px Lato, sans-serif;
+    line-height: 1.8;
+    color: #818181;
+  }
+  h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+   h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: #F5FCF5;
+  }
+  h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    color: #303030;
+    font-weight: 400;
+    margin-bottom: 30px;
+  }
+  h1{
+    text-transform: uppercase;
+    color: #F5FCF5;
+  }
+
+.lpad{
+	padding-left: 10px;
+}
+  .navbar {
+    margin-bottom: 0;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    font-family: Montserrat, sans-serif;
+  }
+  .navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #f4511e !important;
+    background-color: #fff !important;
+  }
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+  }
+
+
+
+
+.text-section{
+	font-size: 150%;
+}
+
+.big{
+	font-size: 200%;
+}
+#extra{
+	background-color: #191C2A;
+}
+.column-header{
+	color: red;
+	text-align: center;
+}
+.red{
+	color: red;
+}
+.ul-no-style{
+	list-style: none;
+	padding: 0;
+}
+.greyed{
+	font-weight: bold;
+	opacity: 0.7;
+	color:white;
+	background-color: grey;
+}
+.uppercase{
+	text-transform: uppercase;
+}
+.navbar-toggle{
+	background-color: white;
+}
+#myNavbar{
+	margin-top: 25px;
+}
+.navbar-brand{
+	margin-top: 15px;
+}
+.title-logo{
+  height: 100px;
+  display: inline-block;
+}
+.larger {
+    color: #1CBD24;
+    font-size: 200px;
+}
+.bg-img{
+    background-repeat: no-repeat;
+    background-position: 50% 100%;
+    background-size: cover;
+    background-clip: padding-box;
+    background-attachment: fixed;
+    min-height: 600px;
+}
+.logo-animation{
+  animation: logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+#bgimg-up{
+  background-image: url("../img/bg-up.jpg");
+  background-attachment: fixed;
+}
+#bgimg-dw{
+  background-image: url("../img/bg-dw.jpg");
+  background-attachment: fixed;
+}
+.bgimg-mid{
+  background-image: url("../img/bg-mid.jpg");
+}
+@media screen and (max-width: 480px) {
+    .larger {
+        font-size: 150px;
+    }
+}
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
